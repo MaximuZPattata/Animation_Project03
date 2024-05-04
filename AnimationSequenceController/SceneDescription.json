@@ -1,0 +1,83 @@
+{
+	"ModelProperties": [
+		{
+			"ModelName": "Vampire",
+			"FilePath": "Sneak Walk.dae",
+			"Position": [0.0, -13.0, 0.0],
+			"Rotation": [0.0, 0.0, 0.0],
+			"Scale": 0.1,
+			"bApplyBones": true,
+			"bMeshLightsOn": true,
+			"bWireframeModeOn": false,
+			"bUseManualColors": false,
+			"bIsSkyBox":false,
+			"bUseTextures": true,
+			"Color": [0.1, 0.1, 0.85],
+			"TextureDetails": [
+				{
+					"bTextureBlend": false,
+					"bUseDiscardMask": false,
+					"DiscardMaskTexturePath": " ",
+					"TexturePath": "Vampire_diffuse.bmp",
+					"TextureName": "Goku_Texture"
+				}
+			]
+		},
+		{
+			"ModelName": "Sphere_01",
+			"FilePath": "Sphere_1_unit_Radius_uv.ply",
+			"Position": [0.0, 0.0, 0.0],
+			"Rotation": [0.0, 0.0, 0.0],
+			"Scale": 10.0,
+			"bApplyBones": false,
+			"bMeshLightsOn": false,
+			"bWireframeModeOn": false,
+			"bUseManualColors": true,
+			"bUseTextures": false,
+			"bIsSkyBox":true,
+			"Color": [0.5, 0.5, 0.5]
+		},
+		{
+			"ModelName": "Ground",
+			"FilePath": "Flat_10x10_plane_n_rgba.ply",
+			"Position": [0.0, -15.0, 0.0],
+			"Rotation": [0.0, 0.0, 0.0],
+			"Scale": 10.0,
+			"bApplyBones": false,
+			"bMeshLightsOn": true,
+			"bWireframeModeOn": true,
+			"bUseManualColors": false,
+			"bIsSkyBox":false,
+			"bUseTextures": false,
+			"Color": [0.1, 0.1, 0.85]
+		}
+	],
+	"CubeMapProperties": {
+		"MapName": "NightSky",
+		"MapTexturePath": { 
+			"LeftTexture": "SpaceBox_left2_negX.bmp",
+			"RightTexture":"SpaceBox_right1_posX.bmp",
+			"TopTexture": "SpaceBox_top3_posY.bmp",
+			"DownTexture": "SpaceBox_bottom4_negY.bmp",
+			"FrontTexture": "SpaceBox_front5_posZ.bmp", 
+			"BackTexture": "SpaceBox_back6_negZ.bmp"
+		}
+	},
+	"LightProperties": [
+		{
+			"LightId": 0,
+			"bLightOn": true, 
+			"LightType": 2.0,
+			"LinearAttenuation": 0.1,
+			"QuadraticAttenuation": 0.0,
+			"InnerAngle": 0.50,
+			"OuterAngle": 1.0,
+			"LightPosition": [0.0, 30.0, 0.0],
+			"LightDirection": [0.0, -1.0, 0.0],
+			"LightColor": [1.0, 1.0, 1.0]
+		}
+	],
+	"CameraProperties": {
+		"CameraPosition": [0.0, 0.0, 100.0]
+	}
+}
